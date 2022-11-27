@@ -1,0 +1,58 @@
+.main-container{
+    margin-top: 0.5rem;
+  }
+  .table-container{
+    overflow-x: auto;
+  }
+  
+  table{
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  td,th{
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: left;
+  }
+  
+  th .data{
+    font-weight: 800;
+  }
+  
+  tr.selected{
+    background-color: #f7f7f7;
+  }
+  
+  .data{
+    border:none;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  
+  .data:focus{
+    outline: none;
+  }
+  
+  .data.view{
+    caret-color: transparent;
+    border : 1px solid #fff;
+  }
+  
+  .data.selected{
+    background-color: #f7f7f7;
+    border-color: #f7f7f7 ;
+  }
+  
+  .data.editable{
+    border : 1px solid #e6e6e6;
+    border-radius: 0.25rem;
+  }
+  
+  .data.editable:focus{
+    border:1px solid #2e79da;
+  }
+  
